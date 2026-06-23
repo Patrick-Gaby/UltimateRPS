@@ -1,0 +1,22 @@
+"Ultimate Rock Paper Scissor Game" by SphericalArm
+
+Checklist:
+
+Alpha 1.0
+-Player ✅
+-Computer/AI Opponent ✅
+-Scoring ✅
+-Animation ✅
+-Win&LoseMechanic ✅
+
+Alpha 2.0
+-Shop
+-Lobby
+-Splash Screen
+-Reward
+-Punishment
+
+Alpha 3.0
+-UI Update
+-Sound Effects
+-Login Screen

@@ -1,0 +1,35 @@
+#coin {
+  align-items: center;
+  display: flex;
+  z-index: -1;
+}
+
+#gold {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 80px;
+}
+
+.icon {
+  width: 8rem;
+}
+
+.gameArena {
+  margin-top: -160px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.computerAction img,
+.player img {
+  display: block;
+  height: 30rem;
+  width: 30rem;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+#computerImageAction {
+  transform: scaleX(-1);
+}

@@ -1,0 +1,67 @@
+.playerAction {
+  display: grid;
+  grid-column: auto;
+  justify-content: center;
+}
+
+.playerActionButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 80px;
+}
+
+.actionButton {
+  align-items: center;
+  display: flex;
+  width: fit-content;
+  padding: 0px 20px 0px 0px;
+  border-radius: 15px;
+  border: 5px solid transparent;
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition:
+    box-shadow 0.3s ease-in-out,
+    background-color 0.2s ease-in-out;
+}
+
+.actionButton p {
+  font-size: 40px;
+  font-family: var(--retro-fonts);
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.actionButton img {
+  padding-bottom: 8px;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+}
+
+#rockButton {
+  background-color: rgb(57, 202, 202);
+}
+
+#rockButton:hover {
+  background-color: rgb(20, 72, 72);
+  box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.3);
+}
+
+#paperButton {
+  background-color: rgb(141, 198, 84);
+}
+
+#paperButton:hover {
+  background-color: rgb(73, 106, 40);
+  box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.3);
+}
+
+#scissorButton {
+  background-color: rgb(217, 151, 58);
+}
+
+#scissorButton:hover {
+  background-color: rgb(117, 86, 43);
+  box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.3);
+}
