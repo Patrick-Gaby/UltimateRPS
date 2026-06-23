@@ -3,52 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <script src="js/main.js" defer></script>
-    <link rel="icon" href="assets/images/paper.png" />
-    <title>Ultimate RPS Arcade</title>
+    <link rel="stylesheet" href=""
+    <title>Document</title>
   </head>
-
   <body>
-    <!--Gold-->
-    <div id="coin">
-      <img draggable="false" oncontextmenu="return false;" class="icon" src="assets/images/coin.gif" alt="coin" />
-      <p id="gold">0</p>
-    </div>
-    <h1 id="scoreBoard">0 | 0</h1>
-    <!--ActionDisplay-->
-    <div class="gameArena">
-      <!--PlayerAction-->
-      <div class="player" id="playerWrapper">
-        <img draggable="false" oncontextmenu="return false;" id="playerImageAction" src="assets/images/rock.png" alt="rock" />
-      </div>
-
-      <!--ComputerAction-->
-      <div class="computerAction" id="computerActionWrapper">
-        <img draggable="false" oncontextmenu="return false;" id="computerImageAction" src="assets/images/rock.png" alt="rock" />
-      </div>
-    </div>
-
-    <h1 id="resultDisplay"></h1>
-
-    <!--PlayerActionButton-->
-    <div class="playerAction" id="buttonVisibility">
-      <div class="playerActionButtons">
-        <button onclick="rock()" id="rockButton" class="actionButton">
-          <img draggable="false" oncontextmenu="return false;" src="assets/images/rock.png" alt="pick_rock" />
-          <p><b>Rock</b></p>
-        </button>
-
-        <button onclick="paper()" id="paperButton" class="actionButton">
-          <img draggable="false" oncontextmenu="return false;" src="assets/images/paper.png" alt="pick_rock" />
-          <p><b>Paper</b></p>
-        </button>
-
-        <button onclick="scissor()" id="scissorButton" class="actionButton">
-          <img draggable="false" oncontextmenu="return false;" src="assets/images/scissor.png" alt="pick_rock" />
-          <p><b>Scissor</b></p>
-        </button>
-      </div>
-    </div>
+    <button id="startButton" onclick="window.location.replace('html/game.html')">PLAY</button>
+    <button id="shopButton" onclick="window.location.replace('html/shop.html')">SHOP</button>
+    <button id="creditsButton" onclick="window.location.replace('html/credits.html')">CREDITS</button>
   </body>
 </html>

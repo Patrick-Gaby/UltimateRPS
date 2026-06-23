@@ -1,22 +1,33 @@
-"Ultimate Rock Paper Scissor Game" by SphericalArm
+"Ultimate Rock Paper Scissor Game" 
+by SphericalArm
 
 Checklist:
 
-Alpha 1.0
--Player ✅
--Computer/AI Opponent ✅
--Scoring ✅
--Animation ✅
--Win&LoseMechanic ✅
+Alpha 1.0 ✔️
+-Player 
+-Computer/AI Opponent 
+-Scoring 
+-Animation 
+-Win&LoseMechanic 
 
-Alpha 2.0
+Alpha 2.0 ❌
 -Shop
 -Lobby
 -Splash Screen
 -Reward
 -Punishment
 
-Alpha 3.0
+Alpha 3.0 ❌
 -UI Update
 -Sound Effects
 -Login Screen
+
+Beta 1.0 ❌
+-Bug Fixes
+-Optimization
+-Responsive
+
+Beta 2.0 ❌
+-Login
+-Multiplayer
+-Database

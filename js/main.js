@@ -3,6 +3,7 @@ let isSpinning = false;
 let user = 0;
 let userScore = 0;
 let opponentScore = 0;
+let playerGold = 0;
 
 const userImg = document.getElementById("playerImageAction");
 const userWrapper = document.getElementById("playerWrapper");
@@ -126,13 +127,15 @@ function buttonVisibilityOn() {
       document.getElementById("scoreBoard").innerText = userScore + " | " + opponentScore;
 
       if (userScore === 5) {
-        alert("PLAYER WIN!"); // Gives the user a pop-up notice before redirecting away
+        alert("PLAYER WIN!");
         window.location.replace("index.html");
+        playerGold + 25;
       }
 
       if (opponentScore === 5) {
         alert("COMPUTER WIN!");
         window.location.replace("index.html");
+        playerGold - 5;
       }
     }
 
