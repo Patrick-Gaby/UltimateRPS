@@ -118,8 +118,8 @@ function buttonVisibilityOff() {
 
 function buttonVisibilityOn() {
   setTimeout(function () {
-    userImg.src = "/assets/images/rock.png";
-    computerImg.src = "/assets/images/rock.png";
+    userImg.src = "assets/images/rock.png";
+    computerImg.src = "assets/images/rock.png";
     isSpinning = false;
     if (!isSpinning) {
       document.getElementById("buttonVisibility").style.visibility = "visible";
