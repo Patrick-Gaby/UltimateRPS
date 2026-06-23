@@ -43,13 +43,13 @@ function playerDecision() {
 
     switch (user) {
       case 1:
-        userImg.src = "/assets/images/rock.png";
+        userImg.src = "assets/images/rock.png";
         break;
       case 2:
-        userImg.src = "/assets/images/paper.png";
+        userImg.src = "assets/images/paper.png";
         break;
       case 3:
-        userImg.src = "/assets/images/scissor.png";
+        userImg.src = "assets/images/scissor.png";
         break;
     }
   }, 1000);
@@ -67,15 +67,15 @@ function generateComputerDecison() {
     switch (generate) {
       case 1:
       case 4:
-        computerImg.src = "/assets/images/rock.png";
+        computerImg.src = "assets/images/rock.png";
         break;
       case 2:
       case 5:
-        computerImg.src = "/assets/images/paper.png";
+        computerImg.src = "assets/images/paper.png";
         break;
       case 3:
       case 6:
-        computerImg.src = "/assets/images/scissor.png";
+        computerImg.src = "assets/images/scissor.png";
         break;
     }
 
