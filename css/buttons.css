@@ -65,3 +65,66 @@
   background-color: rgb(117, 86, 43);
   box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.3);
 }
+
+.lobbyButtonsWrapper {
+  margin-top: -50px;
+  display: grid;
+  grid-column: auto;
+  justify-content: center;
+}
+
+.lobbyButtons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.lobbyButtonsWrapper img {
+  margin-bottom: -50px;
+}
+
+.lobbyButtons p {
+  font-size: 40px;
+  font-family: var(--retro-fonts);
+  color: var(--color-primary);
+  text-align: center;
+}
+
+#startButton,
+#shopButton,
+#aboutButton {
+  display: flex;
+  width: fit-content;
+  border-radius: 15px;
+  border: 5px solid transparent;
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition:
+    box-shadow 0.3s ease-in-out,
+    background-color 0.2s ease-in-out;
+}
+
+#startButton {
+  background-color: rgb(139, 194, 181);
+  padding: 0px 100px;
+}
+
+#shopButton {
+  background-color: rgb(139, 194, 181);
+  padding: 0px 15px;
+}
+
+#aboutButton {
+  background-color: rgb(139, 194, 181);
+  padding: 0px 90px;
+}
+
+#startButton:hover,
+#shopButton:hover,
+#aboutButton:hover {
+  background-color: rgb(82, 139, 126);
+  box-shadow: 0px 0px 90px 0px rgba(255, 255, 255, 0.3);
+}

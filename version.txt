@@ -11,23 +11,27 @@ Alpha 1.0 ✔️
 -Win&LoseMechanic 
 
 Alpha 2.0 ❌
--Shop
--Lobby
+-Sound Effects
+-Lobby /
 -Splash Screen
--Reward
--Punishment
+-Responsive
+-About
 
 Alpha 3.0 ❌
 -UI Update
--Sound Effects
 -Login Screen
+
 
 Beta 1.0 ❌
 -Bug Fixes
 -Optimization
--Responsive
+
 
 Beta 2.0 ❌
 -Login
+-Reward (Database)
+-Punishment (Database)
+-Shop
+
+Beta 3.0
 -Multiplayer
--Database

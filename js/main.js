@@ -26,7 +26,6 @@ function paper() {
   playerDecision();
   generateComputerDecison();
 }
-
 function scissor() {
   if (isSpinning) return;
   isSpinning = true;
@@ -128,13 +127,13 @@ function buttonVisibilityOn() {
 
       if (userScore === 5) {
         alert("PLAYER WIN!");
-        window.location.replace("index.html");
+        window.location.replace("../index.html");
         playerGold + 25;
       }
 
       if (opponentScore === 5) {
         alert("COMPUTER WIN!");
-        window.location.replace("index.html");
+        window.location.replace("../index.html");
         playerGold - 5;
       }
     }
